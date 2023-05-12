@@ -15,8 +15,14 @@ public class Exercise2 {
         System.out.println("Please enter a max number");
         int maxNumber = input.nextInt();
 
-        int myArray[];
+        // Masīva izmēram jāpieskaita 1, jo tad sanāk pareizs nepieciešamais lielums;
+        int[] myArray = new int[maxNumber - minNumber + 1];
         int sum = 0;
+
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = minNumber + i;
+            sum += myArray[i];
+        }
 
         /*
         fixme

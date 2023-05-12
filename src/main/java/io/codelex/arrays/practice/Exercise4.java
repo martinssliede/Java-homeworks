@@ -10,6 +10,23 @@ public class Exercise4 {
                 1456, 2265, 1457, 2456
         };
 
+        int lookingFor = 1245;
+        boolean found = false;
+
+        for (int i : myArray) {
+            if (i == lookingFor) {
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            System.out.println("Contains " + lookingFor);
+        } else {
+            System.out.println("Does not contain " + lookingFor);
+        }
+
+
+
         /*
         fixme - check if contains number 1245 
         for (?) {

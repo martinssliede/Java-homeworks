@@ -57,15 +57,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.codelex.arrays.practice" />
       <recent name="io.codelex.loops.practice" />
       <recent name="io.codelex.flowcontrol.practice" />
       <recent name="io.codelex.arithmetic.practice" />
       <recent name="io.codelex.typesandvariables.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise1">
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise1" />
+  <component name="RunManager" selected="Application.Exercise5">
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise2" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise10_NumberSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.Exercise10_NumberSquare" />
+    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise3" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
+          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise7_Piglet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.Exercise7_Piglet" />
+    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise4" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
+          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise8_AsciiFigure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.Exercise8_AsciiFigure" />
+    <configuration name="Exercise5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise5" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
+          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise9_RollTwoDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.Exercise9_RollTwoDice" />
+    <configuration name="Exercise6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise6" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
+          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Exercise8_AsciiFigure" />
-        <item itemvalue="Application.Exercise10_NumberSquare" />
-        <item itemvalue="Application.Exercise9_RollTwoDice" />
-        <item itemvalue="Application.Exercise7_Piglet" />
+        <item itemvalue="Application.Exercise5" />
+        <item itemvalue="Application.Exercise6" />
+        <item itemvalue="Application.Exercise4" />
+        <item itemvalue="Application.Exercise3" />
+        <item itemvalue="Application.Exercise2" />
       </list>
     </recent_temporary>
   </component>

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca751605-d4cd-49cf-82dd-a6c67ea72aa1" name="Changes" comment="" />
+    <list default="true" id="2d928b15-aff1-47a4-99b6-87e6b441d2c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise2_Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/EnergyDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/EnergyDrinks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +22,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,44 +36,39 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="ProjectId" id="2PK2heZBfoaSTmncoBbNJYr5snS" />
+  <component name="ProjectId" id="2PgtQNHsVJeelS7ilNSZZtKRo75" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.codelex.classesandobjects.practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.codelex.arrays.practice" />
-      <recent name="io.codelex.loops.practice" />
-      <recent name="io.codelex.flowcontrol.practice" />
-      <recent name="io.codelex.arithmetic.practice" />
-      <recent name="io.codelex.typesandvariables.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise5">
-    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise2" />
+  <component name="RunManager" selected="Application.EnergyDrinks">
+    <configuration name="EnergyDrinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.EnergyDrinks" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise3" />
+    <configuration name="Exercise1_Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.Exercise1_Program" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise4" />
+    <configuration name="Exercise2_LitersPerKilometer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.Exercise2_LitersPerKilometer" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise5" />
+    <configuration name="Exercise4_Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.Exercise4_Program" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise6" />
+    <configuration name="Exercise5_TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.Exercise5_TestApp" />
       <module name="Java-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.arrays.practice.*" />
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,26 +130,24 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise5" />
-        <item itemvalue="Application.Exercise6" />
-        <item itemvalue="Application.Exercise4" />
-        <item itemvalue="Application.Exercise3" />
-        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.EnergyDrinks" />
+        <item itemvalue="Application.Exercise4_Program" />
+        <item itemvalue="Application.Exercise1_Program" />
+        <item itemvalue="Application.Exercise5_TestApp" />
+        <item itemvalue="Application.Exercise2_LitersPerKilometer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca751605-d4cd-49cf-82dd-a6c67ea72aa1" name="Changes" comment="" />
-      <created>1683191573025</created>
+      <changelist id="2d928b15-aff1-47a4-99b6-87e6b441d2c2" name="Changes" comment="" />
+      <created>1683890536479</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683191573025</updated>
-      <workItem from="1683191574087" duration="369000" />
-      <workItem from="1683203906887" duration="87000" />
-      <workItem from="1683306117262" duration="26000" />
-      <workItem from="1683359704336" duration="54675000" />
+      <updated>1683890536479</updated>
+      <workItem from="1683890538083" duration="5621000" />
+      <workItem from="1683964789160" duration="19163000" />
     </task>
     <servers />
   </component>

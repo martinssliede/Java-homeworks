@@ -7,6 +7,10 @@ public class BankAccount {
     public String name;
     public double balance;
 
+//    public String toString() {
+//        return (name + ", %.2f");
+//    }
+
     public final void deposit(double amount) {
         //todo
     }

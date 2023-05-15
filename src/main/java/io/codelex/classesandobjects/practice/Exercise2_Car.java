@@ -13,7 +13,7 @@ public class Exercise2_Car {
     }
 
     double calculateConsumption() {
-        return (endKilometers - startKilometers) / liters / 100;
+        return (endKilometers - startKilometers) / liters;
     }
 
     boolean gasHog() {

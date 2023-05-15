@@ -9,13 +9,13 @@ public class EnergyDrinks {
 
 
     public static void main(String[] args) {
-        EnergyDrinks statistic = new EnergyDrinks();
-        statistic.getNUMBERED_SURVEYED();
-        statistic.getPURCHASED_ENERGY_DRINKS();
-        statistic.getPREFER_CITRUS_DRINKS();
+        EnergyDrinks statistics = new EnergyDrinks();
+        statistics.getNUMBERED_SURVEYED();
+        statistics.getPURCHASED_ENERGY_DRINKS();
+        statistics.getPREFER_CITRUS_DRINKS();
 
-        System.out.println("Total number of people surveyed: " + statistic.getNUMBERED_SURVEYED());
-//        System.out.println("Approximately " + );
+        System.out.println("Total number of people surveyed: " + statistics.getNUMBERED_SURVEYED());
+//        System.out.println("Approximately " +  + " bought at least one energy drink.");
 
         //fixme
         //System.out.println("Total number of people surveyed " + NUMBERED_SURVEYED);
@@ -23,8 +23,7 @@ public class EnergyDrinks {
         //System.out.println(preferCitrus + " of those " + "prefer citrus flavored energy drinks.");
     }
 
-    public static double calculateEnergyDrinkers(int numberSurveyed) {
-
+    public static double calculateEnergyDrinkers(int numberSurveyed) {throw new NoCodeWrittenException();
     }
 
     public static double calculatePreferCitrus(int numberSurveyed) {

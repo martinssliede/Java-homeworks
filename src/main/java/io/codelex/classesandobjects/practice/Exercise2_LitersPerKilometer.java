@@ -21,12 +21,12 @@ public class Exercise2_LitersPerKilometer {
             Exercise2_Car car1 = new Exercise2_Car(100000, 100123,6.5);
             Exercise2_Car car2 = new Exercise2_Car(100123, 100200,3);
 
+            System.out.println( "Kilometers per liter are "  + car1.calculateConsumption() );
+            System.out.println( "Kilometers per liter are "  + car2.calculateConsumption() );
+
             // Kā izsaukt abas gasHog un economyCar? Vai abī jāapvieno vienā if?
             System.out.println(car1.gasHog());
 
             // Kaut kur parādās arī miles per gallon. Vajag konvertēt?
-
-            System.out.println( "Kilometers per liter are "  + car1.calculateConsumption() );
-            System.out.println( "Kilometers per liter are "  + car2.calculateConsumption() );
         }
 }

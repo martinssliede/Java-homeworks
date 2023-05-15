@@ -16,48 +16,14 @@ public class Exercise5_phoneKeyPad {
             char letter = input.charAt(i);
 
             switch (letter) {
-                case 'a':
-                case 'b':
-                case 'c':
-                    result += "2";
-                    break;
-                case 'd':
-                case 'e':
-                case 'f':
-                    result += "3";
-                    break;
-                case 'g':
-                case 'h':
-                case 'i':
-                    result += "4";
-                    break;
-                case 'j':
-                case 'k':
-                case 'l':
-                    result += "5";
-                    break;
-                case 'm':
-                case 'n':
-                case 'o':
-                    result += "6";
-                    break;
-                case 'p':
-                case 'q':
-                case 'r':
-                case 's':
-                    result += "7";
-                    break;
-                case 't':
-                case 'u':
-                case 'v':
-                    result += "8";
-                    break;
-                case 'w':
-                case 'x':
-                case 'y':
-                case 'z':
-                    result += "9";
-                    break;
+                case 'a', 'b', 'c' -> result += "2";
+                case 'd', 'e', 'f' -> result += "3";
+                case 'g', 'h', 'i' -> result += "4";
+                case 'j', 'k', 'l' -> result += "5";
+                case 'm', 'n', 'o' -> result += "6";
+                case 'p', 'q', 'r', 's' -> result += "7";
+                case 't', 'u', 'v' -> result += "8";
+                case 'w', 'x', 'y', 'z' -> result += "9";
             }
         }
         System.out.println("Text converted to keypad digits: " + result);

@@ -21,6 +21,20 @@ public class Account {
         return balance;
     }
 
+    public static void transfer(Account from, Account to, double howMuch) {
+        double amountFrom = from.getBalance() - howMuch;
+        double amountTo = to.setBalance(amountFrom);
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public double setBalance(double balance) {
+        this.balance = balance;
+        return balance;
+    }
+
     @Override
     public String toString() {
         return owner + " balance: " + balance;

@@ -3,16 +3,19 @@ package io.codelex.arrays.practice;
 import java.util.Scanner;
 
 public class TicTacToe {
-    // JĀPABEIDZ
+    // Šis ir ārpus manām spējām. :(
 
     private static char[][] board = new char[3][3];
+    private static char currentPlayer = 'X';
+    private static int moves = 0;
+
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-
         initBoard();
         displayBoard();
     }
+
 
     public static void initBoard() {
         // fills up the board with blanks

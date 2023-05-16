@@ -7,10 +7,7 @@ public class Exercise4_Program {
         Exercise4_Movie movie3 = new Exercise4_Movie("Spider-Man: Into the Spider-Verse", "Columbia Pictures");
 
         Exercise4_Movie[] allMovies = {movie1, movie2, movie3};
-        Exercise4_Movie[] allPGMovies = Exercise4_Movie.getPG(allMovies);
-        System.out.println("PG movies: ");
-        for (int i = 0; i < allMovies.length; i++) {
 
-        }
+
     }
 }

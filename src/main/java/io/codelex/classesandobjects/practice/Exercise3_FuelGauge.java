@@ -4,7 +4,7 @@ public class Exercise3_FuelGauge {
     private int currentFuel;
 
     String reportCurrentFuel() {
-        return ("Current fuel amount is: " + currentFuel);
+        return ("Current fuel amount is: " + currentFuel + " liters");
     }
 
     public void oneLiterAdded() {

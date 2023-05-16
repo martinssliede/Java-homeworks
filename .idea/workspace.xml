@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0196756f-12ea-4999-8daf-008eecadff01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/flowcontrol/practice/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/flowcontrol/practice/Exercise4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/flowcontrol/practice/Exercise5_phoneKeyPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/flowcontrol/practice/Exercise5_phoneKeyPad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/Exercise8_AsciiFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/Exercise8_AsciiFigure.java" afterDir="false" />
+    <list default="true" id="0edf25ac-6ffd-48b5-9c9f-8a8751e1b798" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +17,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -31,7 +24,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2Pp96DxUuRUFj4hxFZCfUZ6agSx" />
+  <component name="ProjectId" id="2PrcegJ0npSaf23LNotUZl0ryj8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,44 +33,19 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Exercise8_AsciiFigure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.Exercise8_AsciiFigure" />
-      <module name="Java-homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Exercise8_AsciiFigure" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0196756f-12ea-4999-8daf-008eecadff01" name="Changes" comment="" />
-      <created>1684142981011</created>
+      <changelist id="0edf25ac-6ffd-48b5-9c9f-8a8751e1b798" name="Changes" comment="" />
+      <created>1684218739365</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684142981011</updated>
-      <workItem from="1684142983768" duration="28000" />
-      <workItem from="1684143015154" duration="802000" />
+      <updated>1684218739365</updated>
+      <workItem from="1684218741360" duration="18000" />
     </task>
     <servers />
   </component>

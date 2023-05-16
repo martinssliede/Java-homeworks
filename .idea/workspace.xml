@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce056e5-7868-4d9a-8958-2e112efd85a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/EnergyDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/EnergyDrinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise3_FuelGauge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise3_FuelGauge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise4_Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise4_Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise4_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/Exercise4_Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684144220306</updated>
       <workItem from="1684144222304" duration="3623000" />
-      <workItem from="1684214182592" duration="3474000" />
+      <workItem from="1684214182592" duration="3793000" />
     </task>
     <servers />
   </component>

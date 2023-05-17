@@ -12,7 +12,6 @@ public class EnergyDrinks {
         EnergyDrinks statistics = new EnergyDrinks();
 
         System.out.println("Total number of people surveyed: " + statistics.getNUMBERED_SURVEYED());
-//        System.out.println("Approximately " +  + " bought at least one energy drink.");
 
         //fixme
         //System.out.println("Total number of people surveyed " + NUMBERED_SURVEYED);
@@ -20,9 +19,10 @@ public class EnergyDrinks {
         //System.out.println(preferCitrus + " of those " + "prefer citrus flavored energy drinks.");
     }
 
-//    public static double calculateEnergyDrinkers(int numberSurveyed) {
-//        return
-//    }
+    // Kā piekļūt vajadzīgajiem lielumiem, lai varētu veikt darbības šajās metodēs?
+    public static double calculateEnergyDrinkers(int numberSurveyed) {
+        throw new NoCodeWrittenException();
+    }
 
     public static double calculatePreferCitrus(int numberSurveyed) {
         throw new NoCodeWrittenException();

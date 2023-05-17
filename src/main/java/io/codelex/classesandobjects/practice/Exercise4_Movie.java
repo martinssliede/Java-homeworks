@@ -18,7 +18,8 @@ public class Exercise4_Movie {
         this(title, studio, "PG");
     }
 
-//    public static Exercise4_Movie[] getPG() {
-//        return;
-//    }
+    // Nesaprotu kā šī metode jādefinē lai atgrieztu nepieciešamo? Un kas ir base type Movie?
+    public String getPG() {
+        return;
+    }
 }

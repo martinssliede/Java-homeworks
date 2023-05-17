@@ -1,6 +1,8 @@
 package io.codelex.classesandobjects.practice;
 
 public class Exercise8_SavingsAccount {
+
+    // Laikam vajadzēja izmantot BigDecimal?
     private double annualInterestRate;
     private double balance;
 

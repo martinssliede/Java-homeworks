@@ -6,8 +6,5 @@ public class Exercise4_Program {
         Exercise4_Movie movie2 = new Exercise4_Movie("Glass", "Buena Vista International", "PG13");
         Exercise4_Movie movie3 = new Exercise4_Movie("Spider-Man: Into the Spider-Verse", "Columbia Pictures");
 
-        Exercise4_Movie[] allMovies = {movie1, movie2, movie3};
-
-
     }
 }

@@ -12,6 +12,9 @@ public class Exercise3_Odometer {
             currentMileage += 1;
         } else {
             currentMileage = 0;
+            currentMileage += 1;
         }
     }
 }
+
+// Kā palaiž šo programmu? Vai jāveido trešā klase ar main metodi, vai tā bija jāliek kādā no šīm divām klasēm?

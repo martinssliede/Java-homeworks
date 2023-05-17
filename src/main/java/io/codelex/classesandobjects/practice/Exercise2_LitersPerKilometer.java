@@ -24,9 +24,11 @@ public class Exercise2_LitersPerKilometer {
             System.out.println( "Kilometers per liter are "  + car1.calculateConsumption() );
             System.out.println( "Kilometers per liter are "  + car2.calculateConsumption() );
 
-            // Kā izsaukt abas gasHog un economyCar? Vai abī jāapvieno vienā if?
+            // Kā izsaukt abas gasHog un economyCar? Vai abi jāapvieno vienā if?
             System.out.println(car1.gasHog());
 
             // Kaut kur parādās arī miles per gallon. Vajag konvertēt?
+
+            // Visas beigu darbības
         }
 }

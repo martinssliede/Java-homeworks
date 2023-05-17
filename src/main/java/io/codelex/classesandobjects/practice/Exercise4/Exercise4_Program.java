@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise4;
 
 public class Exercise4_Program {
     public static void main(String[] args) {

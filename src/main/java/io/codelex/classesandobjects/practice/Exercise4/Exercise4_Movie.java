@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise4;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -19,7 +19,6 @@ public class Exercise4_Movie {
     }
 
     // Nesaprotu kā šī metode jādefinē lai atgrieztu nepieciešamo? Un kas ir base type Movie?
-    public String getPG() {
-        return;
-    }
+//    public String getPG() {
+//    }
 }

@@ -39,7 +39,7 @@ public class Account_Test {
         Account b = new Account("B", 0);
         Account c = new Account("C", 0);
 
-//        Kādēļ nevaru piekļūt transfer metodei? 
+//        Kādēļ nevaru piekļūt transfer metodei?
 //        a.
     }
 }

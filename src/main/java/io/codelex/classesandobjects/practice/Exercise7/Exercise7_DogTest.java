@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise7;
 
 public class Exercise7_DogTest {
     public static void main(String[] args) {

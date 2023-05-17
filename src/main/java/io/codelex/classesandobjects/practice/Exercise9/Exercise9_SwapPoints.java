@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise9;
 
 public class Exercise9_SwapPoints {
     int x;

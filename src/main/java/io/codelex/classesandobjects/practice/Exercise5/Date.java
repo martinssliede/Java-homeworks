@@ -1,11 +1,11 @@
 package io.codelex.classesandobjects.practice.Exercise5;
 
-public class Exercise5_Date {
+public class Date {
     private int month;
     private int day;
     private int year;
 
-    public Exercise5_Date( int day, int month, int year) {
+    public Date(int day, int month, int year) {
         this.month = month;
         this.day = day;
         this.year = year;

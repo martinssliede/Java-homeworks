@@ -1,12 +1,13 @@
 package io.codelex.classesandobjects.practice.Exercise1;
 
-public class Exercise1_Product {
+public class Product {
     private String name;
     private double priceAtStart;
+
     private int amountAtStart;
 
 
-    public Exercise1_Product(String name, double priceAtStart, int amountAtStart) {
+    public Product(String name, double priceAtStart, int amountAtStart) {
         this.name = name;
         this.priceAtStart = priceAtStart;
         this.amountAtStart = amountAtStart;

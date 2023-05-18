@@ -1,17 +1,19 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise6;
 
 import io.codelex.NoCodeWrittenException;
 
-public class EnergyDrinks {
-    final int NUMBERED_SURVEYED = 12467;
-    final double PURCHASED_ENERGY_DRINKS = 0.14;
-    final double PREFER_CITRUS_DRINKS = 0.64;
 
+public class EnergyDrinks {
+    static final int NUMBERED_SURVEYED = 12467;
+    static final double PURCHASED_ENERGY_DRINKS = 0.14;
+    static final double PREFER_CITRUS_DRINKS = 0.64;
 
     public static void main(String[] args) {
-        EnergyDrinks statistics = new EnergyDrinks();
+        System.out.println("Total number of people surveyed " + NUMBERED_SURVEYED);
 
-        System.out.println("Total number of people surveyed: " + statistics.getNUMBERED_SURVEYED());
+        System.out.println("Approximately " + calculateEnergyDrinkers(NUMBERED_SURVEYED) + " bought at least one energy drink");
+
+        System.out.println(calculatePreferCitrus(NUMBERED_SURVEYED) + " of those " + "prefer citrus flavored energy drinks.");
 
         //fixme
         //System.out.println("Total number of people surveyed " + NUMBERED_SURVEYED);
@@ -19,13 +21,12 @@ public class EnergyDrinks {
         //System.out.println(preferCitrus + " of those " + "prefer citrus flavored energy drinks.");
     }
 
-    // Kā piekļūt vajadzīgajiem lielumiem, lai varētu veikt darbības šajās metodēs?
     public static double calculateEnergyDrinkers(int numberSurveyed) {
-        throw new NoCodeWrittenException();
+        return NUMBERED_SURVEYED * PURCHASED_ENERGY_DRINKS;
     }
 
     public static double calculatePreferCitrus(int numberSurveyed) {
-        throw new NoCodeWrittenException();
+        return NUMBERED_SURVEYED * PREFER_CITRUS_DRINKS;
     }
 
     public int getNUMBERED_SURVEYED() {

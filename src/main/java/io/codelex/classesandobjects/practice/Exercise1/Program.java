@@ -1,11 +1,11 @@
 package io.codelex.classesandobjects.practice.Exercise1;
-
-public class Exercise1_Program {
+//DONE
+public class Program {
     public static void main(String[] args) {
 
-        Exercise1_Product item1 = new Exercise1_Product("Logitech mouse", 70.00, 14);
-        Exercise1_Product item2 = new Exercise1_Product("iPhone 5s", 999.99, 3);
-        Exercise1_Product item3 = new Exercise1_Product("Epson EB-U05", 440.46, 1);
+        Product item1 = new Product("Logitech mouse", 70.00, 14);
+        Product item2 = new Product("iPhone 5s", 999.99, 3);
+        Product item3 = new Product("Epson EB-U05", 440.46, 1);
 
         System.out.println(item1);
         System.out.println(item2);

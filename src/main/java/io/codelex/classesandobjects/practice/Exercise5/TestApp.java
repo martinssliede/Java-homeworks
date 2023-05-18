@@ -1,8 +1,8 @@
 package io.codelex.classesandobjects.practice.Exercise5;
 
-public class Exercise5_TestApp {
+public class TestApp {
     public static void main(String[] args) {
-        Exercise5_Date myDate = new Exercise5_Date(14, 05, 2023);
+        Date myDate = new Date(14, 05, 2023);
         System.out.print("Date: ");
         myDate.displayDate();
 

@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice;
+package io.codelex.classesandobjects.practice.Exercise10;
 
 public class BankAccount_Test {
     public static void main(String[] args) {

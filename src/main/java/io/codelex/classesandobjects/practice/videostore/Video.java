@@ -1,36 +1,52 @@
 package io.codelex.classesandobjects.practice.videostore;
 
 public class Video {
-    private String title;
-    private double rating;
-    private boolean availability;
+    private final String title;
+    private int ratingCount;
+    private float totalRating;
+    private boolean isCheckedOut;
 
-    public Video(String title, double rating) {
+    public Video(String title) {
         this.title = title;
-        this.rating = rating;
+        this.isCheckedOut = false;
+        this.ratingCount = 0;
+        this.totalRating = 0;
+    }
+
+    public void checkOut() {
+        this.isCheckedOut = true;
+    }
+
+    public void returnVideo() {
+        this.isCheckedOut = false;
+    }
+
+    public void receiveRating(int rating) {
+        this.ratingCount++;
+        this.totalRating += rating;
+    }
+
+    public float getAverageRating() {
+        if (ratingCount == 0) {
+            return 0;
+        }
+        return totalRating / ratingCount;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public void setNotAvailable() {
-        availability = false;
-    }
-    public void setAvailable() {
-        availability = true;
-    }
-
-    public void addRating(int rating) {
-        this.rating = (this.rating + rating) / 2;
+    public int getRatingCount() {
+        return ratingCount;
     }
 
     @Override
     public String toString() {
         return "Video{" +
                 "title='" + title + '\'' +
-                ", rating=" + rating +
-                ", availability=" + availability +
+                ", averageRating=" + getAverageRating() +
+                ", isCheckedOut=" + isCheckedOut +
                 '}';
     }
 }

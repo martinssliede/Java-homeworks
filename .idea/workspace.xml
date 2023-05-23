@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b66e1e4c-2cdf-4448-855f-1038cd26f478" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/VideoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/VideoStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/videostore/VideoStoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <recent name="io.codelex.classesandobjects.practice.Exercise3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.VideoStoreTest">
     <configuration name="Exercise8_Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.codelex.arrays.practice.Exercise8_Hangman" />
       <module name="Java-homeworks" />
@@ -109,8 +112,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoStoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.classesandobjects.practice.videostore.VideoStoreTest" />
+      <module name="Java-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.codelex.classesandobjects.practice.videostore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VideoStoreTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StaticMethods" />
         <item itemvalue="Application.VariableHiding" />
@@ -127,7 +144,10 @@
       <option name="presentableId" value="Default" />
       <updated>1684219460241</updated>
       <workItem from="1684219462338" duration="1424000" />
-      <workItem from="1684223416278" duration="18171000" />
+      <workItem from="1684223416278" duration="22152000" />
+      <workItem from="1684738181180" duration="143000" />
+      <workItem from="1684784086382" duration="373000" />
+      <workItem from="1684822386896" duration="436000" />
     </task>
     <servers />
   </component>

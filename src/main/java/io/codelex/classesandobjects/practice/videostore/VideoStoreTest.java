@@ -42,15 +42,36 @@ public class VideoStoreTest {
             String movieName = scanner.next();
             System.out.println("Enter rating");
             int rating = scanner.nextInt();
+
+            VideoStore store = new VideoStore();
+            Video firstMovie = new Video(movieName);
+
+            Video matrix = new Video("The Matrix");
+            Video godfather = new Video("Godfather II");
+            Video starWars = new Video("Star Wars Episode IV: A New Hope");
+
+            store.addVideo(firstMovie);
+            store.addVideo(matrix);
+            store.addVideo(godfather);
+            store.addVideo(starWars);
+
+            store.receiveRating("The Matrix", 9);
+            store.receiveRating("The Matrix", 5);
+            store.receiveRating("Godfather II", 8);
+            store.receiveRating("Godfather II", 7);
+
+            store.printOutInventory();
             //todo - add video
         }
     }
 
     private static void rentVideo(Scanner scanner) {
+
         //todo - rent video
     }
 
     private static void returnVideo(Scanner scanner) {
+
         //todo - return video
     }
 }

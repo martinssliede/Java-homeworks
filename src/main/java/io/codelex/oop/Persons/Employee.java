@@ -24,4 +24,9 @@ public class Employee extends Person{
     public String getInfo() {
         return getFirstName() + " " + getLastName() + " " + position + " (" + getWorkExperience() + " years)";
     }
+
+    public String getPosition() {
+        return position;
+    }
+
 }

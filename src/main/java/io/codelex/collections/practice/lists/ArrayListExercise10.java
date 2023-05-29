@@ -15,6 +15,8 @@ public class ArrayListExercise10 {
         colors.add("Pink");
 
         System.out.println("Original array list: " + colors);
+
+        colors.clear();
         //TODO: Remove all elements from list
         //...
 

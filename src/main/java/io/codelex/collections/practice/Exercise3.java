@@ -13,8 +13,14 @@ public class Exercise3 {
         mySet.add("Black");
         mySet.add("Yellow");
         //..
+        mySet.add("Purple");
+        mySet.add("Green");
 
         System.out.println("Should have 5 elements: " + mySet); //Pay attention on order!
+
+        for (String color : mySet) {
+            System.out.println(color);
+        }
 
         //TODO: iterate through all elements in set
         /*
@@ -22,6 +28,8 @@ public class Exercise3 {
             System.out.println(element);
         }
         */
+
+        mySet.clear();
 
         //TODO: remove all values from set
         System.out.println("Should be empty: " + mySet);
@@ -31,8 +39,10 @@ public class Exercise3 {
         mySet.add("Orange");
         mySet.add("Green");
         mySet.add("Purple");
+        mySet.add("Purple");
 
         System.out.println(mySet);
+        System.out.println("The same value can be added only once!");
     }
 
 }

@@ -1,14 +1,17 @@
 package io.codelex.collections.practice.phonebook;
 
 import java.util.Arrays;
+import java.util.TreeMap;
 
 public class PhoneDirectory {
+    private TreeMap<String, String> dataTree;
     private PhoneEntry[] data;
     private int dataCount;
 
     public PhoneDirectory() {
         data = new PhoneEntry[1];
         dataCount = 0;
+        dataTree = new TreeMap<>();
     }
 
     private int find(String name) {
@@ -29,6 +32,10 @@ public class PhoneDirectory {
         }
     }
 
+    public String getNumber2(String name) {
+        return dataTree.get(name);
+    }
+
     public void putNumber(String name, String number) {
         if (name == null || number == null) {
             throw new IllegalArgumentException("name and number cannot be null");
@@ -46,6 +53,13 @@ public class PhoneDirectory {
             data[dataCount] = newEntry;   // Add the new pair to the array.
             dataCount++;
         }
+    }
+
+    public void putNumber2(String name, String number) {
+        if (name == null || number == null) {
+            throw new IllegalArgumentException("Name and number cannot be null!");
+        }
+        dataTree.put(name, number);
     }
 
 }

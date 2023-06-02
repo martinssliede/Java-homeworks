@@ -15,7 +15,6 @@ public class Histogram {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
         final String scores = fileContent();
-        System.out.println(scores);
 
         int[] ranges = new int[11];
         try (BufferedReader reader = new BufferedReader(new FileReader(file))){
@@ -31,7 +30,7 @@ public class Histogram {
         }
 
         for (int i = 0; i < ranges.length; i++) {
-            String range = String.format("%02d - %02d: ", i * 10, 1 * 10 + 9);
+            String range = String.format("%02d - %02d: ", i * 10, 10 + 9);
             String asterisks = "*".repeat(ranges[i]);
             System.out.println(range + " " + asterisks);
         }

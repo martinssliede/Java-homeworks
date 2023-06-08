@@ -6,7 +6,7 @@ public interface Car {
     void speedUp();
     void slowDown();
     default String showCurrentSpeed()  {
-        return currentSpeed.toString();
+        return currentSpeed;
     };
     void startEngine();
 

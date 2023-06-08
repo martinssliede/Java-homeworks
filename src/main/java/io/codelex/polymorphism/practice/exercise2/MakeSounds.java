@@ -6,12 +6,12 @@ import java.util.List;
 
 public class MakeSounds {
     public static void main(String[] arg) {
-        Firework firework = new Firework();
-        Radio radio = new Radio();
-        Parrot parrot = new Parrot();
-        Firework firework2 = new Firework();
-        Radio radio2 = new Radio();
-        Parrot parrot2 = new Parrot();
+        Firework firework = new Firework("Prrrrr");
+        Radio radio = new Radio("Shhhhhhhh");
+        Parrot parrot = new Parrot("Hey, I am Rocky, the parrot!");
+        Firework firework2 = new Firework("whoosh-bang");
+        Radio radio2 = new Radio("You are listening to 101.5 FM!");
+        Parrot parrot2 = new Parrot("Kekekekeke");
 
         List<Sound> soundList = new ArrayList<>();
 

@@ -1,8 +1,15 @@
 package io.codelex.polymorphism.practice.exercise2;
 
 public class Radio implements Sound{
+
+    private String sound;
+
+    public Radio(String sound) {
+        this.sound = sound;
+    }
+
     @Override
     public void playSound() {
-        System.out.println("You are listening to 101.5 FM!");
+        System.out.println(sound);
     }
 }

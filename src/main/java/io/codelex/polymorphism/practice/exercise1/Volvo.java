@@ -1,7 +1,12 @@
 package io.codelex.polymorphism.practice.exercise1;
 
 public class Volvo implements Car{
+    private String brand;
     private Integer currentSpeed = 0;
+
+    public Volvo(String brand) {
+        this.brand = brand;
+    }
 
     public void speedUp() {
         currentSpeed += 13;
@@ -17,5 +22,8 @@ public class Volvo implements Car{
 
     public void startEngine() {
         System.out.println("Rrrrrrr.....");
+    }
+    public Integer getCurrentSpeed() {
+        return currentSpeed;
     }
 }

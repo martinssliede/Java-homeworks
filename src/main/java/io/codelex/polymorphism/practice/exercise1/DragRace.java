@@ -1,7 +1,9 @@
 package io.codelex.polymorphism.practice.exercise1;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Take a look at the cars in this package.
@@ -17,12 +19,12 @@ public class DragRace {
 
     public static void main(String[] args) {
         List<Car> carList = new ArrayList<>();
-        Audi audi = new Audi();
-        Bmw bmw = new Bmw();
-        Lexus lexus = new Lexus();
-        Tesla tesla = new Tesla();
-        Volvo volvo = new Volvo();
-        Toyota toyota = new Toyota();
+        Audi audi = new Audi("Audi");
+        Bmw bmw = new Bmw("BMW");
+        Lexus lexus = new Lexus("Lexus");
+        Tesla tesla = new Tesla("Tesla");
+        Volvo volvo = new Volvo("Volvo");
+        Toyota toyota = new Toyota("Toyota");
 
         carList.add(audi);
         carList.add(bmw);
@@ -31,12 +33,33 @@ public class DragRace {
         carList.add(volvo);
         carList.add(toyota);
 
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < carList.size(); j++) {
-                Car car = carList.get(j);
-                System.out.println("Iteration: " + i + ", Car: " + car);
+        for (int i = 1; i <= 10; i++) {
+            for (Car car : carList) {
+                System.out.println("Iteration: " + i + " Speed: " + car.showCurrentSpeed() + " CarList number: " + car);
+                car.speedUp();
+                if (i == 1) {
+                    System.out.print("Engine started    ");
+                    car.startEngine();
+                }
+                if (i == 3) {
+                    lexus.useNitrousOxideEngine();
+                    toyota.useNitrousOxideEngine();
+                }
+                if (i == 10) {
+                    car.slowDown();
+                }
             }
         }
 
+
+        Optional <Car> fastestCar = carList.stream()
+                .max(Comparator.comparingInt(Car::getCurrentSpeed));
+
+        Integer greatestSpeed = carList.stream()
+                .mapToInt(v -> Integer.parseInt(v.showCurrentSpeed()))
+                .summaryStatistics()
+                .getMax();
+
+        fastestCar.ifPresent(car -> System.out.println("Fastest car: " + fastestCar.get() + " with speed: " + greatestSpeed));
     }
 }

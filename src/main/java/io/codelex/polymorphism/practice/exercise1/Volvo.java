@@ -1,28 +1,23 @@
 package io.codelex.polymorphism.practice.exercise1;
 
-public class Lexus implements Car, Nitrous{
-
+public class Volvo implements Car{
     private String brand;
     private Integer currentSpeed = 0;
 
-    public Lexus(String brand) {
+    public Volvo(String brand) {
         this.brand = brand;
     }
 
     public void speedUp() {
-        currentSpeed += 8;
+        currentSpeed += 13;
     }
 
     public void slowDown() {
-        currentSpeed -= 8;
+        currentSpeed -= 13;
     }
 
     public String showCurrentSpeed() {
         return currentSpeed.toString();
-    }
-
-    public void useNitrousOxideEngine() {
-        currentSpeed = currentSpeed + 30;
     }
 
     public void startEngine() {

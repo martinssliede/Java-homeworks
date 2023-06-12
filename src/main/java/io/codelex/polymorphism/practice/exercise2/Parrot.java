@@ -1,12 +1,13 @@
 package io.codelex.polymorphism.practice.exercise2;
 
-class Firework implements Sound {
+public class Parrot implements Sound{
     private String sound;
 
-    public Firework(String sound) {
+    public Parrot(String sound) {
         this.sound = sound;
     }
 
+    @Override
     public void playSound() {
         System.out.println(sound);
     }

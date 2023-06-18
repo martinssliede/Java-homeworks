@@ -4,18 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Basket <T> {
-    private static final int CAPACITY = 10;
 
     private List<T> items;
     private int currentCount;
 
     public Basket() {
-        this.items = new ArrayList<>();
+        this.items = new ArrayList<>(10);
         this.currentCount = 0;
     }
 
     public void addToBasket(T item) {
-        if (currentCount == CAPACITY) {
+        if (currentCount == items.size()) {
             throw new BasketFullException("Basket is full!");
         }
         currentCount++;

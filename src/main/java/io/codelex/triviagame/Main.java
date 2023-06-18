@@ -88,8 +88,7 @@ public class Main {
                         System.out.println("YOU ARE ON FIRE! All answers were correct!");
                         break;
                     }
-
-
+                    
 //                JSONParser parser = new JSONParser();
 //                JSONArray dataObject = (JSONArray) parser.parse(String.valueOf(builder));
 //
